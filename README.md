@@ -1,33 +1,49 @@
 # Event Management System (Java)
 # Project Overview
 
-The Event Management System is a Java console-based application designed to manage events and allow users to book tickets efficiently.
-The project is developed using Object-Oriented Programming (OOP) principles and demonstrates core Java concepts such as classes, objects, constructors, and encapsulation.
+The Event Management System is a Java-based console application that allows users to log in, view available events, and book tickets.
+The system is built using Object-Oriented Programming (OOP) principles and implements file handling to achieve persistent data storage using text files, without relying on any database or DBMS.
 
-This system allows users to view available events, book tickets, and generate ticket details through a simple menu-driven interface.
+This project demonstrates core Java concepts, clean modular design, and practical handling of real-world data persistence.
 
 # Features
 
+User login system with role-based access (Admin & User)
 View available events
-User registration
-Ticket booking for events
-Display booked ticket details
+Ticket booking functionality
+Persistent storage using text files
 Menu-driven console interface
 Modular and object-oriented design
 
-# Technologies Used
+# Technologies & Concepts Used
+
 Language: Java
-Concepts:
+IDE: Visual Studio Code (VS Code)
+
+Core Concepts:
 Object-Oriented Programming (OOP)
 Classes and Objects
 Encapsulation
 Constructors
-Arrays / Collections
+File Handling
+Storage: Text files (.txt)
 Interface: Console-based application
 
 # Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- Visual Studio Code (VS Code) or any Java-supported IDE (IntelliJ IDEA, Eclipse, NetBeans)
+
+Java Development Kit (JDK) 8 or higher
+Visual Studio Code (VS Code) or any Java-supported IDE
+
+# Data Storage
+
+The application uses Java file handling to store data persistently in text files:
+
+users.txt – stores user login details and roles
+events.txt – stores event information
+tickets.txt – stores ticket booking records
+This ensures data is retained even after the program terminates, without using any external database.
+
+# Note: The .txt files included in this repository contain sample data only for demonstration purposes.
 
 # Project Structure
 Event-Management-System/
@@ -36,8 +52,11 @@ Event-Management-System/
 ├── EventBookingSystemApp.java
 ├── Event.java
 ├── User.java
-└── Ticket.java
-
+├── Ticket.java
+│
+├── users.txt
+├── events.txt
+└── tickets.txt
 # File Description
 
 Main.java
