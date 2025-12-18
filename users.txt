@@ -1,0 +1,9 @@
+Admin,admin@event.com,admin123,admin
+kavya,badimalakavyasri@gmail.com,123,user
+,,,user
+kavya,123@gmail.com,123,user
+hlo,123@gmail.com,123,user
+hlo,123,123,user
+hihi,iykyk1905@gmail.com,123,user
+hello,1234@gmail.com,123,user
+kavya,12@gmail.com,123,user
